@@ -1,0 +1,159 @@
+body * {
+  box-sizing: border-box;
+}
+
+body {
+  color: #555;
+  background: #f5f5f5;
+}
+
+.debug {
+  border: 1px dashed red;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #364F6B;
+  color: white;
+  position: fixed;
+  z-index: 999;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  background-color: #364F6B;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+
+.site-footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.site-header,
+.site-footer {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+  padding: 60px 0 30px;
+}
+
+.mater-header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 60px 0 50px;
+}
+
+.img-accueil {
+  margin: 5px auto 5px;
+  height: 200px;
+  width: auto;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.card {
+  margin: 5px;
+  max-width: 45%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title,
+.card-subtitle {
+  text-align: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ecoles {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-top: 50px;
+}
+
+.ecoles li *:not(strong) {
+  font-size: 0.9em;
+}
+
+.description {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.no-bullet {
+  list-style: none;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.test {
+  display: inline-block
+}
+
+.shadow {
+  background-color: #fff;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.actualites {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.actualites h2 {
+  margin-bottom: 40px;
+}
+
+.post {
+  margin: 20px 0;
+  clear: both;
+}
+
+.post-title {
+  margin-bottom: 20px;
+}
+
+.post-content {
+  display: flex;
+}
+
+.post-content img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-right: 20px;
+}
